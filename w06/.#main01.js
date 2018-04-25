@@ -1,1 +1,0 @@
-188x025x@istc-a-024.epc.center.kobe-u.ac.jp.38284
