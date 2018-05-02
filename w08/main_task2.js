@@ -39,7 +39,7 @@ function main()
         0.8  // S2
     ];
 
-    // Create color map
+    // Create a color map
     var cmap = [];
     for ( var i = 0; i < 256; i++ )
     {
@@ -51,7 +51,7 @@ function main()
         cmap.push( [ S, '0x' + color.getHexString() ] );
     }
 
-    // Draw color map
+    // Draw the color map
     var lut = new THREE.Lut( 'rainbow', cmap.length );
     lut.addColorMap( 'mycolormap', cmap );
     lut.changeColorMap( 'mycolormap' );
